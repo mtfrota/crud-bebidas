@@ -37,7 +37,7 @@ const Confirm: React.FC<Props> = ({ beverages }) => {
       // Fechar a página após 3 segundos
       setTimeout(() => {
         window.close();
-      }, 3000);
+      }, 300);
     }
     setShowModal(false);
   };

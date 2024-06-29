@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { NavLink, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import Form from './Form/Form';
+import Confirm from '../pages/Confirm/Confirm';
+import Contatos from '../pages/Contatos/Contatos';
 import './App.css';
-import Confirm from './components/Confirm';
-import Contatos from './components/Contatos';
-import Form from './components/Form';
-import List from './components/List';
+import List from './List/List';
 
 interface Beverage {
   type: string;
