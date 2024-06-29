@@ -1,0 +1,84 @@
+{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .list-group {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .list-group-item {
+    background-color: #555;
+    border-color: #333;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+  }
+  
+  .list-group-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .list-group-item:hover {
+    background-color: #666;
+  }
+  
+  .navbar {
+    background-color: #333; /* Cor de fundo da barra de navegação */
+    border-bottom: 1px solid #222; /* Borda inferior */
+    display: flex; /* Define o modelo de layout como flexível */
+    justify-content: space-between; /* Alinha os itens horizontalmente com espaçamento entre eles */
+    align-items: center; /* Centraliza verticalmente os itens */
+    padding: 14px 16px; /* Espaçamento interno */
+    position: relative; /* Permite posicionar elementos filhos relativamente a este */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Tamanho da fonte da logo */
+    font-weight: bold; /* Negrito na logo */
+    color: #000000; /* Cor do texto da logo */
+  }
+  
+  /* Estilos para os links na barra de navegação */
+  .nav-link {
+    color: #000000;
+    margin-right: 10px;
+    font-weight: normal;
+  }
+  
+  /* Estilos específicos para o link "Confirmar" */
+  .nav-link.confirm {
+    color: #ffffff; /* Cor do texto */
+    background-color: #28a745; /* Cor de fundo */
+    border-radius: 4px; /* Bordas arredondadas */
+    padding: 8px 16px; /* Espaçamento interno */
+    font-weight: bold; /* Texto em negrito */
+    margin-left: auto; /* Empurra o link para a direita */
+  }
+  
+  .nav-link.confirm:hover {
+    background-color: #218838; /* Cor de fundo ao passar o mouse */
+  }
+  
